@@ -2,13 +2,10 @@
     font-family: 'mountains';
     src: url('../../assets/fonts/beyond_the_mountains.ttf');
 }
-
-
 header{
     position: relative;
     height: 100%
 }
-
 .siteName{
     font-size: 30px;
     font-weight: 800;
@@ -47,12 +44,20 @@ header{
 }
 
 .displayHeader h2{
-    font-size: 175px;
+    font-size: 120px;
     padding: 50px;
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    background: linear-gradient(#00d0ff, #25ffbf);
     background-clip: padding-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'mountains';
     text-align: center;
+    transition: 0.1s ease-in-out;
+}
+
+@media all and (min-width: 992px) {
+    .displayHeader h2{
+        font-size: 170px;
+        transition: 0.1s ease-in-out;
+    }
 }

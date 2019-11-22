@@ -40,7 +40,7 @@ const Headliners = () => {
                                     </figure>
                                         <div className="headliner-description-wrapper">
                                             <div className="headliners-title">
-                                                Simi
+                                                Wizkid
                                                 </div>
                                             <div className="headliners-content">
                                                 <p>
@@ -60,7 +60,7 @@ const Headliners = () => {
                                     <div className="headliner-description">
                                         <div className="headliner-description-wrapper">
                                             <div className="headliners-title">
-                                                Simi
+                                                Tiwa Savage
                                                 </div>
                                             <div className="headliners-content">
                                                 <p>
@@ -77,7 +77,7 @@ const Headliners = () => {
                                     </figure>
                                         <div className="headliner-description-wrapper">
                                             <div className="headliners-title">
-                                                Simi
+                                                Davido
                                                 </div>
                                             <div className="headliners-content">
                                                 <p>
