@@ -1,0 +1,17 @@
+.lineup-artists{
+    margin-top: 120px;
+}
+.lineup-entry p{
+    text-transform: uppercase;
+}
+.lineup-entry h2{
+    width: 100%;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: hsl(0, 0%, 0%);
+    font-family: 'Poppins';
+}
+.lineup-artists-details{
+    margin-top: 80px;
+}
