@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import './Jumbotron.css'
 
 class Jumbotron extends Component {
     render() {
-        return <div>
+        return <Fragment>
             <header>
                 <div className="header-bar">
                     <div className="container-fluid">
@@ -37,7 +37,7 @@ class Jumbotron extends Component {
             </div>
                 </div>
             </div>
-        </div>
+        </Fragment>
     }
 }
 

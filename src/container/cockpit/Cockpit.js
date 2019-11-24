@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 // import PayWithPaystack from '../paywithPaystack'
@@ -10,11 +10,11 @@ class Cockpit extends Component {
 
 
     render() {
-        return <>
+        return <Fragment>
             <Jumbotron />
             <Headliners />
             <Otherartists />
-        </>
+        </Fragment>
     }
 }
 
