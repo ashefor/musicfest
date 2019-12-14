@@ -1,10 +1,9 @@
 import React from 'react';
-import './Headliners.css';
-import blackChickImg from '../../assets/images/black-chick.jpg'
+import blackChickImg from '../assets/images/black-chick.jpg'
 
 const Headliners = () => {
-    return (
-        <div className="headliners">
+    return <React.Fragment>
+        <div id="artistes" className="headliners">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
@@ -35,9 +34,9 @@ const Headliners = () => {
                                 </div>
                                 <div className="lineup-artists-details-wrapper d-block d-md-flex">
                                     <div className="headliner-description">
-                                    <figure className="headliner-fig d-md-none">
-                                        <img src={blackChickImg} alt="Black female artist" />
-                                    </figure>
+                                        <figure className="headliner-fig d-md-none">
+                                            <img src={blackChickImg} alt="Black female artist" />
+                                        </figure>
                                         <div className="headliner-description-wrapper">
                                             <div className="headliners-title">
                                                 Wizkid
@@ -72,9 +71,9 @@ const Headliners = () => {
                                 </div>
                                 <div className="lineup-artists-details-wrapper d-block d-md-flex">
                                     <div className="headliner-description">
-                                    <figure className="headliner-fig d-md-none">
-                                        <img src={blackChickImg} alt="Black female artist" />
-                                    </figure>
+                                        <figure className="headliner-fig d-md-none">
+                                            <img src={blackChickImg} alt="Black female artist" />
+                                        </figure>
                                         <div className="headliner-description-wrapper">
                                             <div className="headliners-title">
                                                 Davido
@@ -96,7 +95,7 @@ const Headliners = () => {
                 </div>
             </div>
         </div>
-    )
+    </React.Fragment>
 }
 
 export default Headliners

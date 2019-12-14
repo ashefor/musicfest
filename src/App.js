@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import Cockpit from './container/cockpit/Cockpit';
+import Cockpit from './container/Cockpit';
+import {BrowserRouter} from 'react-router-dom'
 
 function App() {
   return (
-    <div>
-      <Cockpit />
-    </div>
+     <BrowserRouter>
+     <Cockpit />
+     </BrowserRouter>
   );
 }
 

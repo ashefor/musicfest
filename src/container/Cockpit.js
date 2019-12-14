@@ -2,9 +2,10 @@ import React, { Component, Fragment } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 // import PayWithPaystack from '../paywithPaystack'
-import Jumbotron from '../../components/jumbo/Jumbotron';
-import Headliners from '../../components/headliners/Headliners'
-import Otherartists from '../../components/otherartists/Otherartists'
+import Jumbotron from '../components/Jumbotron';
+import Headliners from '../components/Headliners'
+import Otherartists from '../components/Otherartists'
+import Footer from '../components/Footer';
 
 class Cockpit extends Component {
 
@@ -14,6 +15,7 @@ class Cockpit extends Component {
             <Jumbotron />
             <Headliners />
             <Otherartists />
+            <Footer />
         </Fragment>
     }
 }
