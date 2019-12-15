@@ -84,7 +84,7 @@ img {
   transform: rotate(-45deg);
 }
 
-.headliners {
+.main-section {
   background-image: url(./assets/images/middle-cover.jpg);
   background-size: 100% auto;
 }
@@ -237,7 +237,7 @@ nav.show ul {
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
-  height: 1000px;
+  height: 1200px;
 }
 
 .displayHeader h2 {
@@ -287,11 +287,11 @@ figure {
   margin-top: 100px;
 }
 
-.buy-tickets-wrapper button {
-  height: 50px;
-  padding: 0 50px;
+.buy-tickets-wrapper .btn {
+  padding: 15px 40px;
   border-radius: 0;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   background: -webkit-linear-gradient(#00d0ff, #25ffbf);
   font-weight: 500;
   color: #fff;
@@ -300,7 +300,15 @@ figure {
   -moz-transition: all 0.1s ease-in-out;
   -o-transition: all 0.1s ease-in-out;
 }
-
+.buy-tickets-wrapper .btn.buy-show-ticket{
+  background: #fff;
+}
+.buy-tickets-wrapper .btn.buy-show-ticket:hover{
+  background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+}
+.hero .btn{
+  color: #000;
+}
 .site-footer {
   position: relative;
   padding: 40px 0;
@@ -412,7 +420,9 @@ figure {
     font-size: 170px;
     transition: 0.1s ease-in-out;
   }
-
+  .buy-tickets-wrapper .btn{
+    margin-right: 20px;
+  }
   .siteName {
     margin-left: 40px;
   }

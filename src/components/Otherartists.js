@@ -1,5 +1,6 @@
 import React from 'react';
 import Artise1 from '../assets/images/image-1.jpg'
+import PayWithPaystack from '../container/paywithPaystack';
 
 const Otherartists = () => {
     return <React.Fragment>
@@ -66,7 +67,7 @@ const Otherartists = () => {
                             </div>
                             <div className="row buy-tickets justify-content-center">
                                 <div className="buy-tickets-wrapper">
-                                    <button className="btn">Buy tickets</button>
+                                    <PayWithPaystack btnClass=""/>
                                 </div>
                             </div>
                         </div>

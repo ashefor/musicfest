@@ -13,8 +13,10 @@ class Cockpit extends Component {
     render() {
         return <Fragment>
             <Jumbotron />
+            <section className="main-section">
             <Headliners />
             <Otherartists />
+            </section>
             <Footer />
         </Fragment>
     }

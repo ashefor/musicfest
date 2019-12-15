@@ -9,12 +9,12 @@ class PayWithPaystack extends Component {
         this.state = {
             key: "pk_live_de2ddae4bd862a98fd23b02a19bcd37a1f476bc8",
             email: "email@test.com",
-            amount: 100000,
+            amount: 500000,
         }
     }
 
     callback = (response) => {
-        console.log(response.reference); // card charged successfully, get reference here
+        // console.log(response.reference); // card charged successfully, get reference here
     }
 
     close = () => {
@@ -33,8 +33,8 @@ class PayWithPaystack extends Component {
     render() {
         return (
             <PaystackButton
-                text="Make Payment"
-                className="btn btn-success"
+                text="Buy Tickets"
+                className={`btn ${this.props.btnClass}`}
                 callback={this.callback}
                 close={this.close}
                 disabled={false}

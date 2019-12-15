@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
+import PayWithPaystack from '../container/paywithPaystack';
 
 const Jumbotron = props => {
     const handleClick = () => {
@@ -104,6 +105,12 @@ const Jumbotron = props => {
                     </div>
                     </div>
                 </div>
+                <div className="row buy-tickets justify-content-center">
+                <div className="buy-tickets-wrapper text-center">
+                                    <PayWithPaystack btnClass="buy-show-ticket"/>
+                                    <a href="#artistes" className="btn my-3">See Lineup</a>
+                                </div>
+                            </div>
             </div>
         </div>
     </React.Fragment>
